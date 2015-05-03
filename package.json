@@ -1,0 +1,12 @@
+{
+	"name": "SheetSync_dev",
+	"description": "Sheet Synchronization",
+	"version":"0.0.1",
+	"private":true,
+	"dependencies":{
+		"express": "^4.8.0",
+		"mongodb":"*",
+		"body-parser":"*"
+
+	}
+}
