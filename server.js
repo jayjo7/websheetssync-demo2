@@ -7,7 +7,7 @@ var express = require('express'),
 var app = express();
 var collectionDriver;
 app.set('port', process.env.PORT || 3000);
-app.set('mongodb_url', process.MONGO_URL || "mongodb://websheets-demo:websheets-demo123@ds031601.mongolab.com:31601/websheets-demo");
+app.set('mongodb_url', process.env.MONGO_URL );
 app.set('sheet_uniqueid_column_name', process.SHEET_UNIQUEID_COLUMN_NAME || "UniqueId");
 
 app.use(bodyParser.json());
